@@ -20,6 +20,8 @@ class ViewController: UIViewController {
 			dPrint("Internet Connected -> \(isConnected)")
 		}
 		
+        
+        UIAlertController.alertOkayCancel(title: "Title", message: "Message")
 	}
 
 
