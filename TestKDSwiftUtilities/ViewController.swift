@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	var networkListener: NetworkListener!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		networkListener = NetworkListener()
+		networkListener.detectNetworkStatusChanged { isConnected in
+			dPrint("Internet Connected -> \(isConnected)")
+		}
+		
 	}
 
 

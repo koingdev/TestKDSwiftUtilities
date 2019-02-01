@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F9C6BF5C6AD7D2CA6439546 /* Pods_TestKDSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401102A3C32B038AED79646E /* Pods_TestKDSwiftUtilities.framework */; };
+		A20ACD2D220440E90040307C /* VolumeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20ACD2C220440E90040307C /* VolumeService.swift */; };
+		A20ACD2F220441170040307C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20ACD2E220441170040307C /* Helper.swift */; };
+		A20ACD31220441700040307C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20ACD30220441700040307C /* Queue.swift */; };
 		A20D7EAD2202D3090098A9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D7EAC2202D3090098A9D5 /* AppDelegate.swift */; };
 		A20D7EAF2202D3090098A9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D7EAE2202D3090098A9D5 /* ViewController.swift */; };
 		A20D7EB22202D3090098A9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D7EB02202D3090098A9D5 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* Begin PBXFileReference section */
 		20DB669EF8DFF0F080EE72B7 /* Pods-TestKDSwiftUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKDSwiftUtilities.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKDSwiftUtilities/Pods-TestKDSwiftUtilities.release.xcconfig"; sourceTree = "<group>"; };
 		401102A3C32B038AED79646E /* Pods_TestKDSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKDSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20ACD2C220440E90040307C /* VolumeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeService.swift; sourceTree = "<group>"; };
+		A20ACD2E220441170040307C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A20ACD30220441700040307C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		A20D7EA92202D3090098A9D5 /* TestKDSwiftUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKDSwiftUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D7EAC2202D3090098A9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20D7EAE2202D3090098A9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,9 +160,12 @@
 		A26BAF762202D660004B1AB5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A20ACD2E220441170040307C /* Helper.swift */,
 				A26BAF772202D660004B1AB5 /* NetworkListener.swift */,
 				A26BAF782202D660004B1AB5 /* EmojiString.swift */,
 				A26BAF792202D660004B1AB5 /* WeakObj.swift */,
+				A20ACD2C220440E90040307C /* VolumeService.swift */,
+				A20ACD30220441700040307C /* Queue.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -317,6 +326,9 @@
 				A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */,
 				A26BAF7A2202D660004B1AB5 /* UIViewXRadialGradient.swift in Sources */,
 				A26BAF872202D660004B1AB5 /* String.swift in Sources */,
+				A20ACD31220441700040307C /* Queue.swift in Sources */,
+				A20ACD2D220440E90040307C /* VolumeService.swift in Sources */,
+				A20ACD2F220441170040307C /* Helper.swift in Sources */,
 				A26BAF7F2202D660004B1AB5 /* UIViewControllerX.swift in Sources */,
 				A26BAF882202D660004B1AB5 /* Button.swift in Sources */,
 			);
@@ -468,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W8M6CAUQE;
 				INFOPLIST_FILE = TestKDSwiftUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W8M6CAUQE;
 				INFOPLIST_FILE = TestKDSwiftUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
