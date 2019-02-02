@@ -35,6 +35,7 @@
 		A26BAF8A2202D660004B1AB5 /* NetworkListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF772202D660004B1AB5 /* NetworkListener.swift */; };
 		A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF782202D660004B1AB5 /* EmojiString.swift */; };
 		A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF792202D660004B1AB5 /* WeakObj.swift */; };
+		A2E3CF672205A73900AA79B8 /* KeyboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CF662205A73900AA79B8 /* KeyboardService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		A26BAF772202D660004B1AB5 /* NetworkListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkListener.swift; sourceTree = "<group>"; };
 		A26BAF782202D660004B1AB5 /* EmojiString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiString.swift; sourceTree = "<group>"; };
 		A26BAF792202D660004B1AB5 /* WeakObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObj.swift; sourceTree = "<group>"; };
+		A2E3CF662205A73900AA79B8 /* KeyboardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardService.swift; sourceTree = "<group>"; };
 		B1B34233F68F5D20D98FF39C /* Pods-TestKDSwiftUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKDSwiftUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKDSwiftUtilities/Pods-TestKDSwiftUtilities.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +167,7 @@
 				A26BAF782202D660004B1AB5 /* EmojiString.swift */,
 				A26BAF792202D660004B1AB5 /* WeakObj.swift */,
 				A20ACD2C220440E90040307C /* VolumeService.swift */,
+				A2E3CF662205A73900AA79B8 /* KeyboardService.swift */,
 				A20ACD30220441700040307C /* Queue.swift */,
 			);
 			path = Utilities;
@@ -323,6 +326,7 @@
 				A26BAF862202D660004B1AB5 /* TableView+Cell.swift in Sources */,
 				A26BAF822202D660004B1AB5 /* UIVisualEffectViewX.swift in Sources */,
 				A26BAF802202D660004B1AB5 /* UIImageViewX.swift in Sources */,
+				A2E3CF672205A73900AA79B8 /* KeyboardService.swift in Sources */,
 				A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */,
 				A26BAF7A2202D660004B1AB5 /* UIViewXRadialGradient.swift in Sources */,
 				A26BAF872202D660004B1AB5 /* String.swift in Sources */,
