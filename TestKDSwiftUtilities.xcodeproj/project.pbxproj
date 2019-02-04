@@ -28,6 +28,7 @@
 		A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF792202D660004B1AB5 /* WeakObj.swift */; };
 		A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */; };
 		A2D14CF32207DA5E009FC579 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF12207DA5E009FC579 /* UIViewX.swift */; };
+		A2D14CF72207EA8B009FC579 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF62207EA8B009FC579 /* Log.swift */; };
 		A2E3CF672205A73900AA79B8 /* KeyboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CF662205A73900AA79B8 /* KeyboardService.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A26BAF792202D660004B1AB5 /* WeakObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObj.swift; sourceTree = "<group>"; };
 		A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewX.swift; sourceTree = "<group>"; };
 		A2D14CF12207DA5E009FC579 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		A2D14CF62207EA8B009FC579 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		A2E3CF662205A73900AA79B8 /* KeyboardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardService.swift; sourceTree = "<group>"; };
 		B1B34233F68F5D20D98FF39C /* Pods-TestKDSwiftUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKDSwiftUtilities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKDSwiftUtilities/Pods-TestKDSwiftUtilities.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				A20ACD2C220440E90040307C /* VolumeService.swift */,
 				A2E3CF662205A73900AA79B8 /* KeyboardService.swift */,
 				A20ACD30220441700040307C /* Queue.swift */,
+				A2D14CF62207EA8B009FC579 /* Log.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				A2E3CF672205A73900AA79B8 /* KeyboardService.swift in Sources */,
 				A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */,
 				A26BAF872202D660004B1AB5 /* StringX.swift in Sources */,
+				A2D14CF72207EA8B009FC579 /* Log.swift in Sources */,
 				A20ACD31220441700040307C /* Queue.swift in Sources */,
 				A20ACD2D220440E90040307C /* VolumeService.swift in Sources */,
 				A20ACD2F220441170040307C /* Helper.swift in Sources */,
