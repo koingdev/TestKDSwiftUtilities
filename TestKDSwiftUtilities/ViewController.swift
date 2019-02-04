@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		networkListener = NetworkListener()
-		networkListener.detectNetworkStatusChanged { isConnected in
+		networkListener.observeNetworkStatusChanged { isConnected in
 			dPrint("Internet Connected -> \(isConnected)")
 		}
 		
