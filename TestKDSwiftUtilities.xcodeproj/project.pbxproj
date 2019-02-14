@@ -16,7 +16,6 @@
 		A20D7EB22202D3090098A9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D7EB02202D3090098A9D5 /* Main.storyboard */; };
 		A20D7EB42202D30A0098A9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20D7EB32202D30A0098A9D5 /* Assets.xcassets */; };
 		A20D7EB72202D30A0098A9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D7EB52202D30A0098A9D5 /* LaunchScreen.storyboard */; };
-		A26BAF7B2202D660004B1AB5 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF662202D660004B1AB5 /* UITextFieldX.swift */; };
 		A26BAF842202D660004B1AB5 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF702202D660004B1AB5 /* UILabelX.swift */; };
 		A26BAF852202D660004B1AB5 /* UIAlertControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF712202D660004B1AB5 /* UIAlertControllerX.swift */; };
 		A26BAF862202D660004B1AB5 /* UITableViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF722202D660004B1AB5 /* UITableViewX.swift */; };
@@ -26,6 +25,8 @@
 		A26BAF8A2202D660004B1AB5 /* NetworkListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF772202D660004B1AB5 /* NetworkListener.swift */; };
 		A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF782202D660004B1AB5 /* EmojiString.swift */; };
 		A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF792202D660004B1AB5 /* WeakObj.swift */; };
+		A26DF6B4221553010042B08C /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DF6B2221553010042B08C /* UITextFieldX.swift */; };
+		A26DF6B5221553010042B08C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DF6B3221553010042B08C /* DesignableButton.swift */; };
 		A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */; };
 		A2D14CF32207DA5E009FC579 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF12207DA5E009FC579 /* UIViewX.swift */; };
 		A2D14CF72207EA8B009FC579 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF62207EA8B009FC579 /* Log.swift */; };
@@ -45,7 +46,6 @@
 		A20D7EB32202D30A0098A9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20D7EB62202D30A0098A9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20D7EB82202D30A0098A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A26BAF662202D660004B1AB5 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		A26BAF702202D660004B1AB5 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
 		A26BAF712202D660004B1AB5 /* UIAlertControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerX.swift; sourceTree = "<group>"; };
 		A26BAF722202D660004B1AB5 /* UITableViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewX.swift; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		A26BAF772202D660004B1AB5 /* NetworkListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkListener.swift; sourceTree = "<group>"; };
 		A26BAF782202D660004B1AB5 /* EmojiString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiString.swift; sourceTree = "<group>"; };
 		A26BAF792202D660004B1AB5 /* WeakObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObj.swift; sourceTree = "<group>"; };
+		A26DF6B2221553010042B08C /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		A26DF6B3221553010042B08C /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewX.swift; sourceTree = "<group>"; };
 		A2D14CF12207DA5E009FC579 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		A2D14CF62207EA8B009FC579 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
@@ -109,20 +111,12 @@
 		A26BAF632202D660004B1AB5 /* KDSwiftUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				A26BAF642202D660004B1AB5 /* DesignableX */,
+				A26DF6B1221553010042B08C /* DesignableKit */,
 				A26BAF6F2202D660004B1AB5 /* Extensions */,
 				A26BAF762202D660004B1AB5 /* Utilities */,
 			);
 			name = KDSwiftUtilities;
 			path = ../../KDSwiftUtilities;
-			sourceTree = "<group>";
-		};
-		A26BAF642202D660004B1AB5 /* DesignableX */ = {
-			isa = PBXGroup;
-			children = (
-				A26BAF662202D660004B1AB5 /* UITextFieldX.swift */,
-			);
-			path = DesignableX;
 			sourceTree = "<group>";
 		};
 		A26BAF6F2202D660004B1AB5 /* Extensions */ = {
@@ -153,6 +147,15 @@
 				A2D14CF62207EA8B009FC579 /* Log.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A26DF6B1221553010042B08C /* DesignableKit */ = {
+			isa = PBXGroup;
+			children = (
+				A26DF6B2221553010042B08C /* UITextFieldX.swift */,
+				A26DF6B3221553010042B08C /* DesignableButton.swift */,
+			);
+			path = DesignableKit;
 			sourceTree = "<group>";
 		};
 		D572AA4E69BD2A1136C8844A /* Frameworks */ = {
@@ -292,10 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26BAF7B2202D660004B1AB5 /* UITextFieldX.swift in Sources */,
 				A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */,
 				A26BAF892202D660004B1AB5 /* UIViewControllerX.swift in Sources */,
 				A26BAF852202D660004B1AB5 /* UIAlertControllerX.swift in Sources */,
+				A26DF6B5221553010042B08C /* DesignableButton.swift in Sources */,
 				A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */,
 				A26BAF842202D660004B1AB5 /* UILabelX.swift in Sources */,
 				A20D7EAF2202D3090098A9D5 /* ViewController.swift in Sources */,
@@ -308,6 +311,7 @@
 				A26BAF872202D660004B1AB5 /* StringX.swift in Sources */,
 				A2D14CF72207EA8B009FC579 /* Log.swift in Sources */,
 				A20ACD31220441700040307C /* Queue.swift in Sources */,
+				A26DF6B4221553010042B08C /* UITextFieldX.swift in Sources */,
 				A20ACD2D220440E90040307C /* VolumeService.swift in Sources */,
 				A20ACD2F220441170040307C /* Helper.swift in Sources */,
 				A26BAF882202D660004B1AB5 /* UIButtonX.swift in Sources */,
