@@ -27,6 +27,11 @@
 		A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BAF792202D660004B1AB5 /* WeakObj.swift */; };
 		A26DF6B4221553010042B08C /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DF6B2221553010042B08C /* UITextFieldX.swift */; };
 		A26DF6B5221553010042B08C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DF6B3221553010042B08C /* DesignableButton.swift */; };
+		A28B62712279DE9D00BC2D2A /* OptionalX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626C2279DE9D00BC2D2A /* OptionalX.swift */; };
+		A28B62722279DE9D00BC2D2A /* UITabBarControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626D2279DE9D00BC2D2A /* UITabBarControllerX.swift */; };
+		A28B62732279DE9D00BC2D2A /* UIColorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626E2279DE9D00BC2D2A /* UIColorX.swift */; };
+		A28B62742279DE9D00BC2D2A /* UIBezierPathX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626F2279DE9D00BC2D2A /* UIBezierPathX.swift */; };
+		A28B62752279DE9D00BC2D2A /* IntX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B62702279DE9D00BC2D2A /* IntX.swift */; };
 		A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */; };
 		A2D14CF32207DA5E009FC579 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF12207DA5E009FC579 /* UIViewX.swift */; };
 		A2D14CF72207EA8B009FC579 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF62207EA8B009FC579 /* Log.swift */; };
@@ -57,6 +62,11 @@
 		A26BAF792202D660004B1AB5 /* WeakObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObj.swift; sourceTree = "<group>"; };
 		A26DF6B2221553010042B08C /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		A26DF6B3221553010042B08C /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		A28B626C2279DE9D00BC2D2A /* OptionalX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalX.swift; sourceTree = "<group>"; };
+		A28B626D2279DE9D00BC2D2A /* UITabBarControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarControllerX.swift; sourceTree = "<group>"; };
+		A28B626E2279DE9D00BC2D2A /* UIColorX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorX.swift; sourceTree = "<group>"; };
+		A28B626F2279DE9D00BC2D2A /* UIBezierPathX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathX.swift; sourceTree = "<group>"; };
+		A28B62702279DE9D00BC2D2A /* IntX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntX.swift; sourceTree = "<group>"; };
 		A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewX.swift; sourceTree = "<group>"; };
 		A2D14CF12207DA5E009FC579 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		A2D14CF62207EA8B009FC579 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
@@ -122,6 +132,11 @@
 		A26BAF6F2202D660004B1AB5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A28B62702279DE9D00BC2D2A /* IntX.swift */,
+				A28B626C2279DE9D00BC2D2A /* OptionalX.swift */,
+				A28B626F2279DE9D00BC2D2A /* UIBezierPathX.swift */,
+				A28B626E2279DE9D00BC2D2A /* UIColorX.swift */,
+				A28B626D2279DE9D00BC2D2A /* UITabBarControllerX.swift */,
 				A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */,
 				A2D14CF12207DA5E009FC579 /* UIViewX.swift */,
 				A26BAF702202D660004B1AB5 /* UILabelX.swift */,
@@ -297,10 +312,12 @@
 			files = (
 				A26BAF8C2202D660004B1AB5 /* WeakObj.swift in Sources */,
 				A26BAF892202D660004B1AB5 /* UIViewControllerX.swift in Sources */,
+				A28B62732279DE9D00BC2D2A /* UIColorX.swift in Sources */,
 				A26BAF852202D660004B1AB5 /* UIAlertControllerX.swift in Sources */,
 				A26DF6B5221553010042B08C /* DesignableButton.swift in Sources */,
 				A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */,
 				A26BAF842202D660004B1AB5 /* UILabelX.swift in Sources */,
+				A28B62752279DE9D00BC2D2A /* IntX.swift in Sources */,
 				A20D7EAF2202D3090098A9D5 /* ViewController.swift in Sources */,
 				A26BAF8A2202D660004B1AB5 /* NetworkListener.swift in Sources */,
 				A20D7EAD2202D3090098A9D5 /* AppDelegate.swift in Sources */,
@@ -309,7 +326,10 @@
 				A2E3CF672205A73900AA79B8 /* KeyboardService.swift in Sources */,
 				A26BAF8B2202D660004B1AB5 /* EmojiString.swift in Sources */,
 				A26BAF872202D660004B1AB5 /* StringX.swift in Sources */,
+				A28B62722279DE9D00BC2D2A /* UITabBarControllerX.swift in Sources */,
+				A28B62712279DE9D00BC2D2A /* OptionalX.swift in Sources */,
 				A2D14CF72207EA8B009FC579 /* Log.swift in Sources */,
+				A28B62742279DE9D00BC2D2A /* UIBezierPathX.swift in Sources */,
 				A20ACD31220441700040307C /* Queue.swift in Sources */,
 				A26DF6B4221553010042B08C /* UITextFieldX.swift in Sources */,
 				A20ACD2D220440E90040307C /* VolumeService.swift in Sources */,
