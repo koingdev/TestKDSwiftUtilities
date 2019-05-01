@@ -32,6 +32,7 @@
 		A28B62732279DE9D00BC2D2A /* UIColorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626E2279DE9D00BC2D2A /* UIColorX.swift */; };
 		A28B62742279DE9D00BC2D2A /* UIBezierPathX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B626F2279DE9D00BC2D2A /* UIBezierPathX.swift */; };
 		A28B62752279DE9D00BC2D2A /* IntX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B62702279DE9D00BC2D2A /* IntX.swift */; };
+		A28B62772279E07000BC2D2A /* UIControlEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28B62762279E07000BC2D2A /* UIControlEventHandler.swift */; };
 		A2D14CF22207DA5E009FC579 /* UIScrollViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */; };
 		A2D14CF32207DA5E009FC579 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF12207DA5E009FC579 /* UIViewX.swift */; };
 		A2D14CF72207EA8B009FC579 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D14CF62207EA8B009FC579 /* Log.swift */; };
@@ -67,6 +68,7 @@
 		A28B626E2279DE9D00BC2D2A /* UIColorX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorX.swift; sourceTree = "<group>"; };
 		A28B626F2279DE9D00BC2D2A /* UIBezierPathX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathX.swift; sourceTree = "<group>"; };
 		A28B62702279DE9D00BC2D2A /* IntX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntX.swift; sourceTree = "<group>"; };
+		A28B62762279E07000BC2D2A /* UIControlEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlEventHandler.swift; sourceTree = "<group>"; };
 		A2D14CF02207DA5E009FC579 /* UIScrollViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewX.swift; sourceTree = "<group>"; };
 		A2D14CF12207DA5E009FC579 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		A2D14CF62207EA8B009FC579 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				A2E3CF662205A73900AA79B8 /* KeyboardService.swift */,
 				A20ACD30220441700040307C /* Queue.swift */,
 				A2D14CF62207EA8B009FC579 /* Log.swift */,
+				A28B62762279E07000BC2D2A /* UIControlEventHandler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				A2D14CF72207EA8B009FC579 /* Log.swift in Sources */,
 				A28B62742279DE9D00BC2D2A /* UIBezierPathX.swift in Sources */,
 				A20ACD31220441700040307C /* Queue.swift in Sources */,
+				A28B62772279E07000BC2D2A /* UIControlEventHandler.swift in Sources */,
 				A26DF6B4221553010042B08C /* UITextFieldX.swift in Sources */,
 				A20ACD2D220440E90040307C /* VolumeService.swift in Sources */,
 				A20ACD2F220441170040307C /* Helper.swift in Sources */,
